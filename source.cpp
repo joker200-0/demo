@@ -5,7 +5,7 @@ int hieu(int a, int b);
 
 int main()
 {
-	int a, b;
+	int a, b ;
 	char phepToan;
 	cout << "Nhap so nguyen 1: ";
 	cin >> a;
@@ -13,6 +13,7 @@ int main()
 	cin >> b;
 	cout << "Chon phep toan (+,-) ";
 	cin >> phepToan;
+	cout << "Chon phep toan (+,-) ";
 	system("pause");
 	return 0;
 }
