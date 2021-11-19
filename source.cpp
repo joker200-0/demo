@@ -7,6 +7,10 @@ int hieu(int a, int b)
 	sum = a+b;
 	return sum;
 }
+int tich(int a, int  b)
+{
+	return a*b;
+}
 
 int main()
 {
@@ -19,6 +23,8 @@ int main()
 	cout << "Chon phep toan (+,-) ";
 	cin >> phepToan;
 	cout << "Chon phep toan (+,-) ";
+	hieu();
+	tich();
 	system("pause");
 	return 0;
 }
